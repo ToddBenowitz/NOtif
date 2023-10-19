@@ -1,0 +1,218 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+/* CSS Document */
+
+body{
+  background-color: #DFDFC9;
+}
+
+.appLogo{
+	width: 100%;
+	max-width: 30rem;
+	height: auto;
+}
+
+.buttonBox{
+  	display:flex;
+  	justify-content: center;
+	max-width: 60rem;
+  	height: auto;
+	width: 100%;
+	margin: 10rem auto;
+}
+
+.button {
+  background-color: #ECFF15;
+  border: none;
+  color: black;
+  padding: 5rem 5rem;
+  text-align: center;
+  font-size: 5rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10rem;
+  margin: 5rem auto;
+  width: 100%;
+  height: auto;
+}
+
+.button:hover {
+  background-color: #A3C3CA;
+  color: white;
+}
+
+
+.slogan, .sloganBold{
+	color: #000;
+    text-align: center;
+    font-family: Lexend;
+	font-size: 4.375rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.sloganBold{
+	font-weight: 700;
+	margin-top: auto;
+}
+
+.sloganBox{
+	display:flex;
+    justify-content: center;
+}
+
+.one{
+	background-color: #f7f7f7;
+	border-radius: 3rem;
+	width: 100%;
+  	max-width: 70rem;
+  	height: auto;
+	margin: auto;
+}
+
+h1{
+	color: #000;
+    text-align: center;
+    font-family: Lexend;
+	font-size: 3.375rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 5rem 0;
+	margin: 0;
+}
+
+h2{
+	color: #000;
+	font-family: Lexend;
+	font-size: 2.25rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+h3{
+	color: #000;
+	font-family: Lexend;
+	font-size: 1.75rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.insideOne{
+	/*border-style: solid;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	margin: 0;
+	justify-content: space-evenly;
+}
+
+.textBox{
+	width: 31.5rem;
+	height: auto;	
+	display: flex;
+	flex-direction: column;
+}
+
+.phoneInHand{
+	width: 100%;
+	height: auto;
+}
+
+.imgBox{
+	width: 31.5rem;
+	height: auto;
+}
+
+@media screen and (max-width: 1044px){
+	.textBox{
+		text-align: center;
+	}
+}
+
+.blackOval{
+	background-color: #242424;
+	border-radius: 20rem;
+	width: 100%;
+  	max-width: 50vw;
+  	height: 11.5vw;
+	/*margin-top: 10rem;
+	margin-left: 5rem;
+	margin-right:0rem;
+	margin-bottom:0rem;*/
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: center;
+	z-index: 1;
+	position: relative;
+	white-space: nowrap;
+}
+
+.whiteText{
+	color: #f7f7f7;
+	padding-left: 5rem;
+	font-weight: 400;
+	font-size: 350%;
+}
+
+.icon{
+	padding-left: 5rem;
+	width: 100%;
+	height: auto;
+}
+
+.iconBox{
+	height: auto;
+	width: auto;
+}
+
+.whiteBox{
+	/*margin-left: 8rem;
+	margin-top: -3rem;*/
+	background-color:#f7f7f7;
+	width: 100%;
+  	max-width: 50vw;
+  	height:inherit;
+	border-radius: 7.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	z-index: 0;
+	left: 8%;
+	top: 7.5rem;
+	position: absolute;
+}
+
+.whiteBox h2{
+	align-self: flex-end;
+	padding: 2rem;
+	
+}
+
+.two{
+	display: flex;
+	max-width: 100%; 
+	height: auto;
+	margin-top: 10rem;
+	margin-left: 5rem;
+	position: relative;
+
+}
+
+.screenshot{
+	margin-left: 18rem;
+	width: 25vw;
+	height: auto;
+}
+
+@media screen and (max-width: 1044px){
+	.two{
+		
+	}
+	.screenshot{
+		
+	}
+}
