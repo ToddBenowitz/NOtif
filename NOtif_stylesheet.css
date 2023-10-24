@@ -6,6 +6,25 @@ body{
   background-color: #DFDFC9;
 }
 
+.heading{
+	width: 100vw;
+	height: 20vw;
+	background-color: #242424;
+	display:flex;
+  	justify-content: center;
+	margin-top: -2vw;
+	margin-bottom: 10vw;
+}
+
+.headingBox{
+	width: 50vw;
+	height: 10vw;
+	margin: 0 auto;
+	display:flex;
+  	justify-content: center;
+	padding-top: 5vw;
+}
+
 .appLogo{
 	width: 100%;
 	max-width: 30rem;
@@ -18,7 +37,7 @@ body{
 	max-width: 60rem;
   	height: auto;
 	width: 100%;
-	margin: 10rem auto;
+	margin: 5rem auto;
 }
 
 .button {
@@ -149,24 +168,36 @@ h3{
 	z-index: 1;
 	position: relative;
 	white-space: nowrap;
+	text-align: center;
+	line-height: 11.5vw;
+}
+
+.blackOval h1{
+	padding: 0;
+	text-align: center;
+	line-height: 11.5vw;
 }
 
 .whiteText{
 	color: #f7f7f7;
-	padding-left: 5rem;
+	/*padding-left: 5rem;*/
 	font-weight: 400;
-	font-size: 350%;
+	font-size: 3vw;
 }
 
 .icon{
-	padding-left: 5rem;
 	width: 100%;
 	height: auto;
 }
 
 .iconBox{
-	height: auto;
-	width: auto;
+	height: 100%;
+	width: 22.5%;
+	margin-left: 4rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	z-index: 4;
 }
 
 .whiteBox{
@@ -175,21 +206,21 @@ h3{
 	background-color:#f7f7f7;
 	width: 100%;
   	max-width: 50vw;
-  	height:inherit;
+  	height: 23vw;
 	border-radius: 7.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	z-index: 0;
 	left: 8%;
-	top: 7.5rem;
+	top: 5vw;
 	position: absolute;
 }
 
 .whiteBox h2{
 	align-self: flex-end;
 	padding: 2rem;
-	
+	font-size: 2.25vw;
 }
 
 .two{
@@ -197,22 +228,98 @@ h3{
 	max-width: 100%; 
 	height: auto;
 	margin-top: 10rem;
-	margin-left: 5rem;
+	margin-left: 3vw;
 	position: relative;
 
 }
 
 .screenshot{
-	margin-left: 18rem;
+	margin-left: 20vw;
 	width: 25vw;
 	height: auto;
 }
 
-@media screen and (max-width: 1044px){
-	.two{
+@media screen and (max-width: 1100px){
+	.whiteBox, .blackOval{
+		margin-left: 8vw;
+  		max-width: 70vw;
 		
+	}
+	.blackOval{
+		height: 15vw;
+	}
+	.whiteBox{
+		height: 30vw;
+		border-radius: 10vw;
 	}
 	.screenshot{
-		
+		margin-left: -52.5vw;
+		margin-top: 50vw;
+		width: 50vw;
+		height: auto;
 	}
+	.whiteBox h2{
+		font-size: 2.5vw;
+	}
+	.whiteText{
+		font-size: 4.5vw;
+		margin-top: 1vw;
+	}
+}
+
+.icon2{
+	width: 100%;
+	height: auto;
+	padding: 1vw;
+}
+
+
+@media screen and (max-width: 600px){
+	.iconBox{
+		margin-left: 2rem;
+	}
+	.whiteBox{
+		height: 35vw;
+	}
+	.button{
+		font-size: 10vw;
+	}
+}
+
+.phoneOnTable{
+	width: 100%;
+	height: auto;
+}
+
+.line{
+	height: 0.25vw;
+	background-color: #000000;
+}
+
+.three{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.threeLeft{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1vw;
+}
+
+.threeRight{
+	text-align: right;
+	margin-right: 3vw;
+}
+
+.three p{
+	color: #000;
+	font-family: Lexend;
+	font-style: normal;
+}
+
+.two1{
+	margin-top: 20vw;
 }
